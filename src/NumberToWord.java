@@ -1,6 +1,4 @@
-import java.util.Scanner;
-
-public class NumberInWord {
+public class NumberToWord {
 
     public static String printUsingNestedIf(int number) {
         if (number == 1) return "ONE";

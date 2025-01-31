@@ -82,15 +82,15 @@ public class Main {
         System.out.println("Single Number: " + SingleNumber.findSingleNumber(nums)); // Expected Output: 1
 
         // q7:
-        NumberInWord numberInWord = new NumberInWord();
+        NumberToWord numberToWord = new NumberToWord();
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter a number: ");
         int number = scanner.nextInt();
 
-        System.out.println("Using Nested-If: " + numberInWord.printUsingNestedIf(number));
+        System.out.println("Using Nested-If: " + numberToWord.printUsingNestedIf(number));
 
-        System.out.println("Using Switch-Case: " + numberInWord. printUsingSwitchCase(number));
+        System.out.println("Using Switch-Case: " + numberToWord. printUsingSwitchCase(number));
 
         scanner.close();
 
